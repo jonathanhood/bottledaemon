@@ -1,0 +1,4 @@
+bottle==0.12.7
+lockfile==0.9.1
+python-daemon==1.6
+wsgiref==0.1.2

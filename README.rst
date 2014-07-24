@@ -1,9 +1,15 @@
 Bottle Daemon
 =============
 
-A simple tool to help make bottle appliations run in the background a unix/linux daemon. Try it out by installing with pip::
+A simple tool to help make bottle appliations run in the background as a unix/linux daemon. Try it out by installing with pip::
 
   > pip install bottledaemon
+
+Or, alternatively, install from source::
+
+  > git clone https://github.com/jonathanhood/bottledaemon.git
+  > cd bottledaemon
+  > python setup.py install
 
 Usage is pretty straighforward:
 

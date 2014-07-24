@@ -6,9 +6,6 @@ import lockfile
 import bottle
 from contextlib import contextmanager
 
-PIDFILE_PATH="/tmp/website-builder.pid"
-LOGFILE="/tmp/website-builder.log"
-
 @contextmanager
 def __locked_pidfile(filename):
     # Acquire the lockfile

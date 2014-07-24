@@ -17,5 +17,10 @@ Usage is pretty straighforward:
   if __name__ == "__main__":
     daemon_run()
 
-The above application will launch in the background. This top-level script can be used to start/stop the background process.
+The above application will launch in the background. This top-level script can be used to start/stop the background process easily::
+
+  jonathans-air:bottle-daemon jhood$ python bottledaemon/bottledaemon.py
+  usage: bottledaemon.py [-h] {start,stop}
+
+The daemon library guarantees that your application will only be lauched a single time - so multiple "start" commands are OK. 
 

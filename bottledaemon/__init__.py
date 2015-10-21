@@ -1,2 +1,2 @@
-from bottledaemon import daemon_run
+from .bottledaemon import daemon_run
 
